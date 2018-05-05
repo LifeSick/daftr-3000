@@ -1,0 +1,119 @@
+h1 {
+	text-align: :center;
+	color:;
+}
+
+@font-face {
+    font-family: 'futuramedium';
+    src: url('lib/fonts/futura-webfont.woff2') format('woff2'),
+         url('lib/fonts/futura-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ttuniqlobold';
+    src: url('lib/fonts/ttuniqlo-bold-webfont.woff2') format('woff2'),
+         url('lib/fonts/ttuniqlo-bold-webfont.woff') format('woff'),
+         url('lib/fonts/ttuniqlo-bold-webfont.ttf') format('truetype'),
+         url('lib/fonts/ttuniqlo-bold-webfont.svg#ttuniqlobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+      }
+
+@font-face { font-family: Futura; src: url('futura.TTF'); } 
+      h3 {
+         font-family: Futura
+}
+      h2 {
+         font-family: Futura
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-family: 'Slabo 27px', serif;
+    font-size: 15px;
+}
+
+b {
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+}
+
+body{  
+  background: #E0FFFF;
+}
+
+
+a.button2{
+	display:inline-block;
+	padding:0.5em 3em;
+	border:0.16em solid #000000;
+	margin:0 0.3em 0.3em 0;
+	box-sizing: border-box;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:'Cabin',sans-serif;
+	font-weight:400;
+	color:#000000;
+	text-align:center;
+	transition: all 0.15s;
+}
+
+a.button2:hover{
+	color:#808080;
+	border-color:#808080;
+}
+
+a.button2:active{
+	color:#BBBBBB;
+	border-color:#BBBBBB;
+}
+
+@media all and (max-width:30em){
+	a.button2{
+		display:block;
+		margin:0.4em auto;
+	}
+}
+
+a.button1{
+	display:inline-block;
+	padding:0.5em 3em;
+	border:0.16em solid #ff6181;
+	margin:0 0.3em 0.3em 0;
+	box-sizing: border-box;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:'Cabin',sans-serif;
+	font-weight:400;
+	color:#ff6181;
+	text-align:center;
+	transition: all 0.15s;
+}
+
+a.button1:hover{
+	color:#ff8361;
+	border-color:#ff8361;
+}
+
+a.button1:active{
+	color:#BBBBBB;
+	border-color:#BBBBBB;
+}
+
+@media all and (max-width:30em){
+	a.button1{
+		display:block;
+		margin:0.4em auto;
+	}
+}
