@@ -17,7 +17,7 @@ if(isset($_POST["submit"]))
    	          if(mysqli_num_rows($result) == 1)
    	          {
 
-echo "<script>alert('Maaf...Email ini sudah didaftarkan dalam sistem');
+echo "<script>alert('Sorry... This E-mail has already been registered');
 window.location='index.php'</script>";
    	          }
    	          else
@@ -27,7 +27,7 @@ VALUES ('$name','$email','$password','Pengguna')");
                       if($query)
                       {
 
-echo "<script>alert('Terima Kasih, anda sudah berdaftar');
+echo "<script>alert('Thank you, you are registered');
 window.location='index.php'</script>";
                       }
               }
@@ -42,8 +42,8 @@ window.location='index.php'</script>";
 </head>
 <body>
 <body>
-<center><h3>Daftar Pengguna Baru</h3>
-<p>Masukkan Email, Nama dan Katalaluan untuk di rekodkan</p>
+<center><h3>Register New User</h3>
+<p>Please input your E-mail, Name and Password</p>
 
 <form name="daftar_baru" method="POST">
 
@@ -65,7 +65,7 @@ required/><br>
 </form>
 
 <!--Pautan-->
-<b> Already have an account? </b><br></b><a href="index.php">Klik di sini</a></center>
+<b> Already have an account? </b><br></b><a href="index.php">Click here</a></center>
 <link rel="stylesheet" href="css/style.css">
 </body>
 </html>

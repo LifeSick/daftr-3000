@@ -70,7 +70,7 @@ else
 <label>Persatuan ID: </label>
 <input type="text" name="a6" placeholder="XXXXXXX" required/></td>
 </tr>
-<td><input type="submit" value="Register"/></td>
+<td><input type="submit" value="Register" name="submit"/></td>
 </tbody></table></fieldset>
 </form><br>
 <a href="page_admin.php" class="btn">Back to Main Menu</a><br>

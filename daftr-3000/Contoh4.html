@@ -1,0 +1,26 @@
+<html>
+   <body>
+   	  <script>
+   	  	var kodBuku = [110, 102, 105, 101, 100];
+   	  	var bilKod = kodBuku.length, i, j;
+   	  	var sementara = kodBuku [0];
+
+   	  	document.write("Senarai kod buku sebelum isih: "+ kodBuku);
+
+   	  	for(i=0; i<bilKod-1; i++)
+   	  	{
+   	  		for (j=0; j<bilKod-i-1; j++)
+   	  		{
+   	  			if (kodBuku[j] < kodBuku[j+1])
+   	  			{
+   	  				sementara = kodBuku[j];
+   	  				kodBuku[j] = kodBuku[j+1];
+   	  				kodBuku[j+1]= sementara;
+   	  			}
+   	  		}
+   	  	}
+
+   	  document.write ("<br>Senarai kod buku selepas isih secara menurun: "+kodBuku);
+   	</script>
+   </body>
+  </html>

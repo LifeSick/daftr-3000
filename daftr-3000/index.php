@@ -17,6 +17,7 @@
 <head>
 <title>DAFT-R 3000</title>
 <link href="https://fonts.googleapis.com/css?family=Cabin|Slabo+27px" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 </head>
 <body>
 <center>
@@ -36,9 +37,6 @@
    </select><br>
    <button type="submit" name="submit" >
    Login
-
-   <div class="button__horizontal"></div>
-   <div class="button__vertical"></div>
    </button><br/>
    <?php echo $error; ?>
 
